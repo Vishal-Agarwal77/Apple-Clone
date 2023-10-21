@@ -414,7 +414,7 @@ section:nth-child(3) {
 }
 
 section:nth-child(3)>div:first-child {
-    background-image: url('guidedtour.png');
+    background-image: url('./guidedtour.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 814px;
