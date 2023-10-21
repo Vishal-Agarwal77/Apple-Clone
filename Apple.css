@@ -1,0 +1,911 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* This is for the top-most navbar */
+#nav1 {
+    background-color: #000000CC;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 44px;
+    padding: 0px 244px;
+}
+
+#nav1 div {
+    margin: 0 auto;
+    width: 1024px;
+    padding: 0px 22px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#nav1 ul {
+    height: 44px;
+    width: 996px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    gap: 24.75px;
+    margin: 0 -8px;
+    align-items: flex-start;
+    padding-right: 0px;
+}
+
+#nav1 li {
+    font-weight: 400;
+    color: #86868B;
+}
+
+#nav1 a {
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is for the 2nd navbar which is present just below the main navbar */
+#nav2 {
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    background-color: #FBFBFD;
+    width: 97vw;
+}
+
+#nav2>div {
+    /* height: 100px; */
+    display: flex;
+    /* padding: 0px 34px; */
+    justify-content: center;
+    align-items: center;
+    /* width: 92vw; */
+}
+
+#nav2.div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav2>div>div>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 129px;
+    /* padding: 0px 170px; */
+}
+
+#nav2>div>div li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 80px;
+}
+
+#nav2>div>div a {
+    text-decoration: none;
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+/* This is for the section bar which consist of three parts */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+    gap: 15px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+/* This is for the 1st part of section which is iPhone 14 */
+
+#sec1>div:nth-child(1)>div {
+    /* border:5px solid green; */
+    padding: 113px 266px 0px 266px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 1021px;
+}
+
+#sec1 #iphone14 {
+    display: flex;
+    /* position:relative; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 254.5px;
+    margin-bottom: 0%;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+#sec1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    color: #6E6E73;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.374px;
+    gap: 3px;
+}
+
+#sec1 #iphone14 img {
+    margin: 14px 0px 0px 0px;
+    width: 100px;
+    height: 21px;
+}
+
+#sec1 #iphone14 p {
+    /* margin-top: 20px; */
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 58px;
+    margin: 15px 0px;
+}
+
+#sec1 #iphone14 b {
+    display: inline-flex;
+    /* width: 320px; */
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 52px;
+    letter-spacing: -0.144px;
+}
+
+#sec1 span {
+    height: 30px;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+
+#sec1 ul {
+    margin: 22px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+#sec1 #iphone14 li:nth-child(1) a {
+    color: white;
+    display: flex;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #0071E3;
+    text-decoration: none;
+}
+
+#sec1 #iphone14 li:nth-child(2) a {
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+    text-decoration: none;
+}
+
+/* This is for 2nd part of section which is iPhone 14 Pro */
+
+#sec1>div:nth-child(2) {
+    display: flex;
+    height: 850px;
+    padding: 133px 266px 0px 266px;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 815px;
+    ;
+    /* gap:42px; */
+}
+
+#sec1>div:nth-child(2)>div>div {
+    height: 797.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 99px;
+    gap: 42px;
+    color: white;
+}
+
+#sec1>div:nth-child(2) #iphone14pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    height: 213.5px;
+}
+
+#sec1 #iphone14pro p {
+    /* margin-top: 20px; */
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 58px;
+    margin: 15px 0px;
+}
+
+#sec1 #iphone14pro b {
+    display: inline-flex;
+    /* width: 320px; */
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 52px;
+    letter-spacing: -0.144px;
+}
+
+#sec1 #iphone14pro li:nth-child(1) a {
+    color: white;
+    display: flex;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #0071E3;
+    text-decoration: none;
+}
+
+#sec1 #iphone14pro li:nth-child(2) a {
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+    text-decoration: none;
+}
+
+/* This is for 3rd part in section which is iphone SE */
+
+#sec1>div:nth-child(3) {
+    /* background-color:#0071E3; */
+    display: flex;
+    height: 830px;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-left : 8.3%; */
+}
+
+#sec1>div:nth-child(3)>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 #iphoneSE {
+    display: flex;
+    /* position:relative; */
+    flex-direction: column;
+    width: 630px;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 254.5px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+/* #sec1>div:nth-child(3) #iphoneSE{
+    display: flex;
+    width: 630px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: 'SF Pro Display', sans-serif;    
+    height: 265px;
+} */
+#sec1 #iphoneSE p {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    margin: 50px 0px;
+    /* width:340px; */
+}
+
+#sec1 #iphoneSE b {
+    display: flex;
+    /* width: 338px; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 52px;
+    letter-spacing: -0.144px;
+}
+
+#sec1 #iphoneSE li:nth-child(1) a {
+    color: white;
+    display: flex;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #0071E3;
+    text-decoration: none;
+}
+
+#sec1 #iphoneSE li:nth-child(2) a {
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+    text-decoration: none;
+}
+
+/* This is for 2nd section which is Guided Tour of iPhone 14 And iPhone 14 pro */
+
+section:nth-child(3) {
+    /* background-color: black;  */
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 36px 9px 36px;
+}
+
+section:nth-child(3)>div:first-child {
+    background-image: url('guidedtour.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 814px;
+    padding: 0px 15px;
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(3)>div>div>div {
+    display: inline-flex;
+    padding: 302px 0px 0px 218px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+section:nth-child(3) #guidedtour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    gap: 21px;
+}
+
+section:nth-child(3) #guidedtour h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+section:nth-child(3) #guidedtour b {
+    height: 110px;
+    display: flex;
+    /* width: 338px; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.144px;
+}
+
+section:nth-child(3) #guidedtour span {
+    height: 29px;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+}
+
+section:nth-child(3) #guidedtour>p {
+    display: flex;
+    width: 113px;
+    height: 22px;
+    padding: 7px 15.6px 9px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 980px;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 117.648% */
+    letter-spacing: -0.374px;
+}
+
+/* This is for the comparison section */
+
+#sec3 {
+    display: flex;
+    justify-content: center;
+    width: 97vw;
+    /* margin: */
+}
+
+#sec3>div {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 116px 266px 119px 266px;
+    width: 840px;
+}
+
+#sec3>div>p {
+    width: 640px;
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+#sec3 th>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 2px solid #D2D2D7;
+}
+
+#sec3 .dev1 {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#sec3 .dev2 {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+    gap: 20px;
+}
+
+#sec3 table {
+    border-collapse: separate;
+    border-spacing: 60px 50px;
+}
+
+#sec3 .dev1 span {
+    color: #BF4800;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+#sec3 .dev1 p {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 147.059% */
+    letter-spacing: -0.374px;
+}
+
+#sec3 .dev2 p {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+
+#sec3 .row {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:start; */
+    align-items: center;
+    margin: 0px;
+    /* gap:5px; */
+}
+
+#sec3 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#sec3 .dev2 li {
+    margin: 20px 0px;
+}
+
+#sec3 .dev2 li:nth-child(1) a {
+    text-decoration: none;
+    padding: 5px 12px 5px 12px;
+    background: #0071E3;
+    color: white;
+    border-radius: 900px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+#sec3 .dev2 li:nth-child(2) a {
+    text-decoration: none;
+    padding: 5px 12px 5px 12px;
+    color: #0071E3;
+    border-radius: 900px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+#sec3 p {
+    /* margin: 5px 0px 10px 0px; */
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+#sec3 .head {
+    /* height: 16px; */
+    /* gap: 10px; */
+    color: #1D1D1F;
+    /* 142.859% */
+}
+
+#sec3 .content {
+    /* height: 16px; */
+    color: #6E6E73;
+}
+
+#sec3 .lastrow {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #D2D2D7;
+}
+
+#sec3>div>ul>div {
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sec3>div>ul>div>li>a {
+    text-decoration: none;
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+}
+
+/* This is for 4th section which is give WOW */
+
+#sec4 {
+    display: flex;
+    padding: 0px 60px 15px 60px;
+    /* background-color: #000; */
+    /* align-items: center; */
+    /* width: 1274px; */
+    justify-content: center;
+    align-items: center;
+}
+
+#sec4>div {
+    background: #01012A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+}
+
+#sec4>div>div {
+    display: flex;
+    align-items: center;
+    /* padding: 17px 50.078px 15px 100.031px;  */
+    gap: 20px;
+    padding: 20px 0;
+}
+
+#sec4>div>div>figure img {
+    width: 650px;
+    height: 540px;
+}
+
+#sec4 #wow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+}
+
+#sec4 #wow #wow-head {
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.009px;
+    /* 111.121% */
+    letter-spacing: -0.27px;
+}
+
+#sec4 #wow #wow-content {
+    color: #2997FF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+}
+
+/* This is for 5th section which is WAYS TO BUY iPHONE*/
+
+#sec5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px 20px 0px;
+}
+
+#sec5>p {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: -0.28px;
+}
+
+#sec5>div {
+    display: flex;
+    padding: 70px 30px 30px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec5 #div1 {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#sec5 #div1>div:nth-child(1) {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#sec5 #div1>div:nth-child(1)>p:nth-child(1) {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: 0.216px;
+}
+
+#sec5 #div1>div:nth-child(1)>p:nth-child(2) {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+#sec5 #div1>div:nth-child(2) {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec5 #div1>div:nth-child(2)>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 10px;
+}
+
+#sec5 #div1>div:nth-child(2)>div>p {
+    color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+}
+
+#sec5 #div1>div:nth-child(3) {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#sec5 #div1>div:nth-child(3)>p:nth-child(1) {
+    /* width:170px; */
+    border-radius: 980px;
+    background: #0071E3;
+    padding: 15px 31px 15px 31px;
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 117.648% */
+    letter-spacing: -0.374px;
+}
+
+#sec5 #div1>div:nth-child(3)>p:nth-child(2) {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 147.059% */
+    letter-spacing: -0.374px;
+}
+
+#sec5 #div1>div:nth-child(3)>p:nth-child(2)>a {
+    text-decoration: none;
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 147.059% */
+    letter-spacing: -0.374px;
+}
