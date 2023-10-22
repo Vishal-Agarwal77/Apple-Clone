@@ -769,10 +769,11 @@ section:nth-child(3) #guidedtour>p {
     flex-direction: column;
     align-items: center;
     padding: 100px 20px 20px 20px;
-    background:#f2f2f2;
+    background: #f2f2f2;
 }
 
-#sec5>p {
+#sec5,
+#sec6>p {
     color: #1D1D1F;
     text-align: center;
     font-family: SF Pro Display;
@@ -796,15 +797,16 @@ section:nth-child(3) #guidedtour>p {
     margin-top: 40px;
     /* gap:50px; */
 }
+
 #sec5 #div1 {
     /* border: 2px solid green; */
-    width:1240px;
+    width: 1240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding:100px 0px;
+    padding: 100px 0px;
     /* margin-bottom: 100px; */
     background: white;
     /* border:2px solid pink; */
@@ -921,27 +923,29 @@ section:nth-child(3) #guidedtour>p {
     letter-spacing: -0.374px;
 }
 
-#sec5 #div2{
+#sec5 #div2 {
     padding: 30px 0px;
     /* border:2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:40px;
+    gap: 40px;
     background: #f2f2f2;
 }
-#sec5 #div2>div{
-    padding:20px 0px 0px;
+
+#sec5 #div2>div {
+    padding: 20px 0px 0px;
     background: #FFFFFF;
     /* border:2px solid green; */
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    width:600px;
-    height:750px;
+    width: 600px;
+    height: 750px;
 }
-#sec5 #div2>div>div{
+
+#sec5 #div2>div>div {
     padding-top: 30px;
     width: 500px;
     /* border:2px solid blue; */
@@ -950,6 +954,7 @@ section:nth-child(3) #guidedtour>p {
     justify-content: center;
     align-items: center;
 }
+
 /* #sec5 #div2>div:nth-child(1)>div{
     border:2px solid blue;
 } */
@@ -959,52 +964,120 @@ section:nth-child(3) #guidedtour>p {
     align-items: center;
     gap:15px;
 } */
-#sec5 .top{
-    width:500px;
+#sec5 .top,
+#sec6 .top {
+    width: 500px;
     color: #1D1D1F;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 52.008px; /* 108.349% */
-letter-spacing: -0.144px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
 }
-#sec5 .middle{
-    margin:20px 0px;
+
+#sec5 .middle,
+#sec6 .middle {
+    margin: 20px 0px;
     color: #1D1D1F;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 29.001px; /* 138.1% */
-letter-spacing: 0.231px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
-#sec5 .bottom a{
+
+#sec5 .bottom a,
+#sec6 .bottom a{
     text-decoration: none;
     color: #06C;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 29.001px; /* 138.1% */
-letter-spacing: 0.231px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
-#sec5 #div3{
+
+#sec5 #div3 {
     display: flex;
     /* border:2px solid red; */
     justify-content: center;
     align-items: center;
-    width:1240px;
+    width: 1240px;
     background: url('./Apple clone images/apple.jpg');
+    /* background-image: url('./Apple clone images/apple.jpg'); */
     height: 560px;
 }
-#sec5 #div3>div{
+
+#sec5 #div3>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:750px;
+    width: 750px;
+}
+
+/* This is for 6th section which is FEATURED ACCESSORIES */
+
+#sec6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 130px 20px 20px 20px;
+}
+
+#sec6>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+#sec6>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 1240px;
+    background: white;
+}
+#sec6>div>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+}
+#sec6>div>div:nth-child(1){
+    margin-top: 50px;
+    padding:60px 0px 0px 0px;
+    gap:50px;
+    /* gap:100px; */
+}
+#sec6>div>div:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap:15px;
+}
+#sec6 ul{
+    display: flex;
+    gap:30px;
+}
+#sec6>div>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    padding:50px 0px;
 }
