@@ -414,7 +414,7 @@ section:nth-child(3) {
 }
 
 section:nth-child(3)>div:first-child {
-    background-image: url('guidedtour.png');
+    background-image: url('./Apple clone images/guidedtour.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 814px;
@@ -698,12 +698,13 @@ section:nth-child(3) #guidedtour>p {
 
 #sec4 {
     display: flex;
-    padding: 0px 60px 15px 60px;
+    padding: 30px 60px 15px 60px;
     /* background-color: #000; */
     /* align-items: center; */
     /* width: 1274px; */
     justify-content: center;
     align-items: center;
+    background: #f2f2f2;
 }
 
 #sec4>div {
@@ -767,7 +768,8 @@ section:nth-child(3) #guidedtour>p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 100px 20px 20px 0px;
+    padding: 100px 20px 20px 20px;
+    background:#f2f2f2;
 }
 
 #sec5>p {
@@ -783,24 +785,33 @@ section:nth-child(3) #guidedtour>p {
 }
 
 #sec5>div {
+    /* height:703px;
+    width:800px; */
     display: flex;
-    padding: 70px 30px 30px 30px;
+    padding: 50px 0px 30px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background: white; */
+    margin-top: 40px;
+    /* gap:50px; */
 }
-
 #sec5 #div1 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    width:1240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
+    padding:100px 0px;
+    /* margin-bottom: 100px; */
+    background: white;
+    /* border:2px solid pink; */
 }
 
 #sec5 #div1>div:nth-child(1) {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -833,7 +844,7 @@ section:nth-child(3) #guidedtour>p {
 }
 
 #sec5 #div1>div:nth-child(2) {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -844,7 +855,7 @@ section:nth-child(3) #guidedtour>p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 40px;
+    padding: 10px 25px;
     gap: 10px;
 }
 
@@ -861,12 +872,12 @@ section:nth-child(3) #guidedtour>p {
 }
 
 #sec5 #div1>div:nth-child(3) {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 70px;
 }
 
 #sec5 #div1>div:nth-child(3)>p:nth-child(1) {
@@ -908,4 +919,92 @@ section:nth-child(3) #guidedtour>p {
     line-height: 25px;
     /* 147.059% */
     letter-spacing: -0.374px;
+}
+
+#sec5 #div2{
+    padding: 30px 0px;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    background: #f2f2f2;
+}
+#sec5 #div2>div{
+    padding:20px 0px 0px;
+    background: #FFFFFF;
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width:600px;
+    height:750px;
+}
+#sec5 #div2>div>div{
+    padding-top: 30px;
+    width: 500px;
+    /* border:2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* #sec5 #div2>div:nth-child(1)>div{
+    border:2px solid blue;
+} */
+/* #sec5 #div2>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+} */
+#sec5 .top{
+    width:500px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+#sec5 .middle{
+    margin:20px 0px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#sec5 .bottom a{
+    text-decoration: none;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#sec5 #div3{
+    display: flex;
+    /* border:2px solid red; */
+    justify-content: center;
+    align-items: center;
+    width:1240px;
+    background: url('./Apple clone images/apple.jpg');
+    height: 560px;
+}
+#sec5 #div3>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:750px;
 }
