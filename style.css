@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -26,12 +27,12 @@ a{
 
 #nav1 ul {
     height: 44px;
-    width: 996px;
+    /* width: 996px; */
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
     gap: 24.75px;
-    margin: 0 -8px;
+    /* margin: 0 -8px; */
     align-items: flex-start;
     padding-right: 0px;
 }
@@ -54,7 +55,7 @@ a{
     justify-content: center;
     height: 100px;
     background-color: #FBFBFD;
-    width: 98.6vw;
+    /* width: 98.6vw; */
 }
 
 #nav2>div {
@@ -133,7 +134,8 @@ section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 1021px;
+    /* height: 1021px; */
+    gap:100px;
 }
 
 #sec1 #iphone14 {
@@ -239,13 +241,13 @@ section {
 
 #sec1>div:nth-child(2) {
     display: flex;
-    height: 850px;
+    height: 950px;
     padding: 133px 266px 0px 266px;
     flex-direction: column;
     background-color: black;
     justify-content: center;
     align-items: center;
-    width: 815px;
+    width: 100%;
     ;
     /* gap:42px; */
 }
