@@ -487,10 +487,10 @@ section:nth-child(3) #guidedtour span {
     letter-spacing: 0.216px;
 }
 
-section:nth-child(3) #guidedtour>p {
+section:nth-child(3) #guidedtour>p a{
     display: flex;
-    width: 113px;
-    height: 22px;
+    width: 135px;
+    height: 26px;
     padding: 7px 15.6px 9px 16px;
     justify-content: center;
     align-items: center;
