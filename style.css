@@ -10,12 +10,16 @@ a {
 
 /* This is for the top-most navbar */
 .nav1 {
+    overflow: hidden;
     position:sticky;
+    top:0;
+    left: 0;
     background-color: #000000CC;
     justify-content: center;
     align-items: center;
     display: flex;
     height: 44px;
+    z-index: 1;
 }
 
 .nav1 .large-screen {
@@ -1641,19 +1645,20 @@ section {
 
 /* This is for footer section  */
 footer {
+    width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: #f2f2f2;
-    padding: 0px 240px;
+    padding: 0vh 17.5vw;
     color: #6E6E73;
     font-family: SF Pro Display;
-    font-size: 12px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
-    gap: 20px;
+    line-height: 1rem;
+    gap: 2.6vh;
 }
 
 footer>div:nth-child(1) {
@@ -1661,75 +1666,80 @@ footer>div:nth-child(1) {
     flex-direction: column;
     /* align-items: center; */
     justify-content: flex-start;
-    gap: 10px;
+    gap: 1.3vh;
 }
 
 footer>div:nth-child(1)>ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10px;
-    gap: 10px;
+    padding-left: 0.7vw;
+    gap: 1.3vh;
 }
-
 footer>div:nth-child(2) {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 860px;
-    gap: 20px;
+    width: 63vw;
+    gap: 1.5vw;
     border-top: 1px solid #D2D2D7;
 }
 
 footer>div:nth-child(2) p {
-    padding-left: 20px;
-    ;
+    padding-left: 1.5vw;
     color: #424245;
     font-family: SF Pro Display;
-    font-size: 12px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 1rem;
     /* 133.337% */
 }
 
 footer>div:nth-child(3) {
     /* border:2px solid red; */
+    width:80vw;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content:center;
+    /* border:2px solid red; */
+    flex-wrap:wrap;
+    /* gap:5vw; */
 }
 
 footer>div:nth-child(3)>div {
     /* border:2px solid green; */
     display: flex;
     flex-direction: column;
-    /* align-items: fl; */
-    width: 175px;
-    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 10rem;
+    gap: 3.9vh;
+    flex-wrap: wrap;
 }
 
 footer>div:nth-child(3)>div>div {
     /* border:2px solid blue; */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1.3vh;
+    flex-wrap: wrap;
 }
 
 footer>div:nth-child(3) ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1.3vh;
 }
 
 footer>div:nth-child(3) ul a {
     text-decoration: none;
     color: #424245;
     font-family: SF Pro Display;
-    font-size: 12px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1rem;
     /* 133.337% */
 }
 
@@ -1737,10 +1747,10 @@ footer>div:nth-child(3) .head a {
     text-decoration: none;
     color: #1D1D1F;
     font-family: SF Pro Display;
-    font-size: 12px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 16px;
+    line-height: 1rem;
     letter-spacing: -0.12px;
 }
 
@@ -1749,7 +1759,7 @@ footer>div:nth-child(4) {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    width: 860px;
+    width: 63vw;
     padding: 20px 0px;
 }
 
@@ -1759,17 +1769,16 @@ footer>div:nth-child(4)>div {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
-    width: 850px;
-
+    width: 62.2vw;
 }
 
 footer>div:nth-child(4)>div:nth-child(1) {
     color: #6E6E73;
     font-family: SF Pro Display;
-    font-size: 12px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 1rem;
     /* 133.337% */
     border-bottom: 1px solid #D2D2D7;
 }
@@ -1783,17 +1792,18 @@ footer>div:nth-child(4)>div:nth-child(2) ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 1.1vw;
 }
 
 footer>div:nth-child(4)>div:nth-child(2)>div {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 footer>div:nth-child(4)>div:nth-child(2)>div ul li {
-    padding: 0px 15px;
+    padding: 0vh 1.1vw;
 }
 
 footer>div:nth-child(4)>div:nth-child(2)>div ul li:nth-child(n+2) {
